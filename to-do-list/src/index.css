@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #282c34;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2, h3 {
+  padding-bottom: 1rem;
+}
+
+.main {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-list {
+  border: 3px solid blue;
+  padding: 1rem;
+  min-width: 35%;
+}
+
+.add-task {
+  border: 3px solid lawngreen;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.add-task form {
+  display: flex;
+}
+
+.task-item-list {
+  border: 3px solid salmon;
+  padding: 1rem;
+}
+
+.task-item-list form {
+  display: flex;
+}
+
+input {
+  margin-right: 0.5rem;
+}
