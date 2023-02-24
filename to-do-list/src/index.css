@@ -10,11 +10,11 @@ body {
   margin: 0;
   background-color: #282c34;
   color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2, h3 {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .main {
@@ -24,10 +24,10 @@ h2, h3 {
   align-items: center;
 }
 
-.task-list {
+.task-main {
   border: 3px solid blue;
   padding: 1rem;
-  min-width: 35%;
+  min-width: 350px;
 }
 
 .add-task {
@@ -40,15 +40,33 @@ h2, h3 {
   display: flex;
 }
 
-.task-item-list {
+.add-task form input, .add-task form button {
+  padding: 0.5em;
+}
+
+.task-list {
   border: 3px solid salmon;
   padding: 1rem;
 }
 
-.task-item-list form {
+input {
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+.task-item form {
   display: flex;
 }
 
-input {
-  margin-right: 0.5rem;
+.task-item {
+  background-color: gray;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.done {
+  display: none;
 }
